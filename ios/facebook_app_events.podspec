@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'facebook_app_events'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Flutter plugin for Facebook Analytics and App Events'
   s.description      = <<-DESC
 Flutter plugin for Facebook Analytics and App Events
@@ -13,7 +13,7 @@ Flutter plugin for Facebook Analytics and App Events
   s.public_header_files = 'Classes/**/*.h'
   s.static_framework = true
   s.dependency 'Flutter'
-  s.dependency 'FBSDKCoreKit', '~> 14.0.0'
+  s.dependency 'FBSDKCoreKit', '~> 8.0.0'
   s.dependency 'FBAudienceNetwork', '~> 8.0.0'
   s.swift_version       = '5.0'
 
