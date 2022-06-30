@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Flutter plugin for Facebook Analytics and App Events
                        DESC
-  s.homepage         = 'https://github.com/oddbit/flutter_facebook_app_events'
+  s.homepage         = 'https://github.com/aykuttasil/flutter_facebook_app_events'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Oddbit Team' => 'opensource@oddbit.id' }
   s.source           = { :path => '.' }
@@ -13,7 +13,7 @@ Flutter plugin for Facebook Analytics and App Events
   s.public_header_files = 'Classes/**/*.h'
   s.static_framework = true
   s.dependency 'Flutter'
-  s.dependency 'FBSDKCoreKit', '~> 13.2.0'
+  s.dependency 'FBSDKCoreKit', '~> 14.0.0'
   s.dependency 'FBAudienceNetwork', '~> 8.0.0'
   s.swift_version       = '5.0'
 
