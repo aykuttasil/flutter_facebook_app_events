@@ -60,7 +60,7 @@ class MyApp extends StatelessWidget {
               MaterialButton(
                 child: Text("Test purchase!"),
                 onPressed: () {
-                  facebookAppEvents.logPurchase(amount: 1, currency: "USD");
+                  facebookAppEvents.logPurchase(amount: 1, currency: "TRY");
                 },
               ),
               MaterialButton(
